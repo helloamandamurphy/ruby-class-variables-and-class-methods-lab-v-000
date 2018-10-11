@@ -32,7 +32,7 @@ class Song
     genre_count = {}
     if genre_count[genre] > 0 
       genre_count[genre] += 1 
-      
+    elsif genre_count[genre] = 1
   end
   
   def self.artist_count
