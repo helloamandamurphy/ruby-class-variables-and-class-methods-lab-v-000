@@ -22,7 +22,7 @@ class Song
   end
   
   def self.genres
-    @@genres << :genre #unless @@genres.include?(genre)
+    @@genres << genre #unless @@genres.include?(genre)
     @@genres
   end
 
